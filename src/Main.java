@@ -39,22 +39,22 @@ void main() {
     double d1 = 27.12;
     System.out.println(d1);
 
-    var LyudmilaPavlovna = 23;
-    System.out.println(LyudmilaPavlovna);
-    var AnnaSergeevna =27;
-    System.out.println(AnnaSergeevna);
-    var EkaterinaAndreevna =30;
-    System.out.println(EkaterinaAndreevna);
-    var SheetsPaper = 480;
-    System.out.println(SheetsPaper);
-    int totalStudents = LyudmilaPavlovna + AnnaSergeevna + EkaterinaAndreevna;
+    int lyudmilaPavlovna = 23;
+    System.out.println(lyudmilaPavlovna);
+    int annaSergeevna =27;
+    System.out.println(annaSergeevna);
+    int ekaterinaAndreevna =30;
+    System.out.println(ekaterinaAndreevna);
+    int sheetsPaper = 480;
+    System.out.println(sheetsPaper);
+    int totalStudents = lyudmilaPavlovna + annaSergeevna + ekaterinaAndreevna;
     System.out.println(totalStudents);
-    int numberSheetsPaperCalculatedPerStudents = SheetsPaper / totalStudents;
+    int numberSheetsPaperCalculatedPerStudents = sheetsPaper / totalStudents;
     System.out.println(numberSheetsPaperCalculatedPerStudents);
 
-    var bottleCapacity =16;
+    int bottleCapacity =16;
     System.out.println(bottleCapacity);
-    var performanceTime = 2;
+    int performanceTime = 2;
     System.out.println(performanceTime);
     int productivityPerMinute = bottleCapacity / performanceTime;
     System.out.println(productivityPerMinute);
@@ -69,28 +69,28 @@ void main() {
     long month = productivityPerDay * 30;
     System.out.println(month);
 
-    var White = 2;
-    System.out.println(White);
-    var Brown = 4;
-    System.out.println(Brown);
-    int consumptionClass = White + Brown;
+    int white = 2;
+    System.out.println(white);
+    int brown = 4;
+    System.out.println(brown);
+    int consumptionClass = white + brown;
     System.out.println(consumptionClass);
     int allClasses = 120 / consumptionClass;
     System.out.println(allClasses);
-    int consumptionWhitePaint = White * 20;
+    int consumptionWhitePaint = white * 20;
     System.out.println(consumptionWhitePaint);
-    int consumptionBrownPaint = Brown * 20;
+    int consumptionBrownPaint = brown * 20;
     System.out.println(consumptionBrownPaint);
     int resultPlaner = consumptionWhitePaint+ consumptionBrownPaint;
     System.out.println(resultPlaner);
 
-    var banana = 80;
+    int banana = 80;
     System.out.println(banana);
-    var milk = 105;
+    int milk = 105;
     System.out.println(milk);
-    var iceCream = 200;
+    int iceCream = 200;
     System.out.println(iceCream);
-    var rawEgg = 70;
+    int rawEgg = 70;
     System.out.println(rawEgg);
     long bananas = banana * 5;
     System.out.println(bananas);
@@ -103,22 +103,23 @@ void main() {
     float kG = gramm / 1000f;
     System.out.println(kG);
 
-    var kilogram = 7;
+    int kilogram = 7;
     System.out.println(kilogram);
-    var gram1 = 250;
+    int gram1 = 250;
     System.out.println(gram1);
-    var gramm2 = 500;
+    int gramm2 = 500;
     System.out.println(gramm2);
-    long gram = kilogram * 1000;
+    int gram = kilogram * 1000;
     System.out.println(gram);
-    long day250 = gram / 250;
+    int day250 = gram / 250;
     System.out.println(day250);
-    long day500 = gram / 500;
+    int day500 = gram / 500;
     System.out.println(day500);
-    long averageLossWess = (gram1 +gramm2) / 2;
+    int averageLossWess = (gram1 + gramm2) / 2;
     System.out.println(averageLossWess);
-    double averageNumberDays = gram / 375f;
+    long averageNumberDays = (day250 +day500) / 2;
     System.out.println(averageNumberDays);
+
 
     int masha = 67760;
     System.out.println(masha);
