@@ -117,7 +117,7 @@ void main() {
     System.out.println(day500);
     int averageLossWess = (gram1 + gramm2) / 2;
     System.out.println(averageLossWess);
-    long averageNumberDays = (day250 +day500) / 2;
+    int averageNumberDays = (day250 +day500) / 2;
     System.out.println(averageNumberDays);
 
 
