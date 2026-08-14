@@ -121,6 +121,7 @@ void main() {
     System.out.println(averageNumberDays);
 
 
+
     int masha = 67760;
     System.out.println(masha);
     float newSalaryM = masha * 1.10f;
